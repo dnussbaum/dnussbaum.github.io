@@ -1,0 +1,194 @@
+.profile-image {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 25px;
+  border: 4px solid #fff; }
+
+body,
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-family: "Soleil", Helvetica, Arial, sans-serif;
+  font-weight: 700; }
+
+a {
+  color: #254066; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "ff-ernestine-web-pro", Courier, Arial, sans-serif;
+  font-weight: 700; }
+
+p {
+  font-size: 18px;
+  font-weight: 400; }
+
+.lead {
+  font-size: 25px;
+  font-weight: 400; }
+
+.intro-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/northwestern-bg.jpg) no-repeat center center;
+  background-size: cover; }
+
+.intro-message {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%; }
+
+.intro-message > h1 {
+  font-family: "ff-ernestine-web-pro",Courier,Arial,sans-serif;
+  font-weight: 400;
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em; }
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6); }
+
+.intro-message > h3 {
+  font-weight: 100;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); }
+
+@media (max-width: 767px) {
+  .profile-image {
+    width: 100px;
+    height: 100px; }
+
+  .container {
+    padding-left: 25px;
+    padding-right: 25px; }
+
+  .intro-message > h1 {
+    font-size: 2em; }
+
+  .intro-message > h3 {
+    font-size: 1em;
+    margin: 0px; }
+
+  .intro-message {
+    padding-bottom: 15%; }
+
+  ul.intro-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0; }
+
+  ul.intro-social-buttons > li:last-child {
+    margin-bottom: 0; }
+
+  .intro-divider {
+    width: 100%; } }
+.network-name {
+  font-family: "ff-ernestine-web-pro", Courier, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px; }
+
+.content-section-dark {
+  padding: 50px 0;
+  background-color: #eaeaea; }
+
+.content-section-light {
+  padding: 50px 0; }
+
+.about-me {
+  padding: 50px 0;
+  background-color: #254066;
+  color: #f8f8f8; }
+
+.section-heading {
+  margin-bottom: 30px; }
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #eaeaea; }
+
+/* Bottom Banner */
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(../img/chicago-skyline-bg.jpg) no-repeat center center;
+  background-size: cover; }
+
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em; }
+
+.banner ul {
+  margin-bottom: 0; }
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0; }
+
+@media (max-width: 1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px; } }
+@media (max-width: 767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em; }
+
+  ul.banner-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0; }
+
+  ul.banner-social-buttons > li:last-child {
+    margin-bottom: 0; } }
+/* Footer information */
+footer {
+  padding: 50px 0;
+  background-color: #f8f8f8; }
+
+p.copyright {
+  margin: 15px 0 0; }
+
+/* Typed cursor animation */
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*# sourceMappingURL=landing-page.css.map */
